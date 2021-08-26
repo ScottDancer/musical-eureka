@@ -12,3 +12,12 @@ html {
 .educationDetails {
   background-color: greenyellow;
 }
+
+.bg2 {
+  background: url('./images/heroPencils.jpg');
+  background-position: bottom right;
+}
+
+.uwLogo {
+  
+}
