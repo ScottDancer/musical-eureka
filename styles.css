@@ -16,6 +16,16 @@ body {
   /* background-color: #F8F9FA; */
 }
 
+h2 {
+  color:#877D74;
+  font-size: 2.22rem;
+
+  margin-bottom: 0;
+  font-weight: 500;
+
+    /* text-align: center; */
+}
+
 
 
 .educationDetails {
@@ -30,3 +40,20 @@ body {
 .uwLogo {
   
 }
+
+.educationDetails {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+
+
+
+/* *-----replocating this using CSS Grid-------* */
+
+/* .educationDetails {
+  max-width: 900px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+} */
