@@ -46,7 +46,23 @@ h2 {
   grid-template-columns: 1fr 2fr 2fr 1fr;
 }
 
+h3 + p {
+  font-style: italic;
+  font-weight: 500;
+}
 
+h3 ~ p {
+  margin: 0;
+}
+
+.educationDetails {
+  color:#131314;
+  background-color: hsl(219, 37.2%, 94.1%);
+  background-image: url(images/colored-pencils.jpg);
+  background-size: cover;
+  background-position: center right;
+  padding-bottom: 275px;
+}
 
 
 /* *-----replocating this using CSS Grid-------* */
