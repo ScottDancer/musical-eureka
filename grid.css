@@ -8,9 +8,18 @@ body {
 }
 
 .educationLogos {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-column: 2 / 4;
+  
 }
-
+.educationLogos h3{
+  color: rosybrown;
+  grid-column: 1 / 2;
+}
+.educationLogos img{
+ 
+}
 .educationDetails h2{
   
   grid-column: 1 / 5;

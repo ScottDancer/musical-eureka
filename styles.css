@@ -33,12 +33,14 @@ h2 {
 }
 
 .bg2 {
-  background: url('./images/heroPencils.jpg');
-  background-position: bottom right;
+  /* background: url('./images/heroPencils.jpg'); */
+  /* background-position: bottom right; */
 }
 
 .uwLogo {
-  
+  grid-column: ;
+  /* display: flex; */
+  /* max-height: 130px; */
 }
 
 
@@ -67,6 +69,8 @@ h3 ~ p {
 
 .educationLogos img{
   width: 130px;
+  max-height: 130px;
+
   
 
   /* *-----replocating this using CSS Grid-------* */
