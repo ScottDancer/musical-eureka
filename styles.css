@@ -69,9 +69,12 @@ h3 ~ p {
 }
 
 .educationLogos img{
-  float: left;
-  width: 110px;
-  margin-right: 50px;
+  width: 130px;
+  
+
+  /* *-----replocating this using CSS Grid-------* */
+  /* float: left; 
+  margin-right: 50px; */
 }
 
 
