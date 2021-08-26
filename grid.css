@@ -1,3 +1,18 @@
 body {
   /* background-color: limegreen; */
 }
+
+.educationDetails {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.educationLogos {
+  grid-column: 2 / 4;
+}
+
+.educationDetails h2{
+  
+  grid-column: 1 / 5;
+  place-self: center;
+}
