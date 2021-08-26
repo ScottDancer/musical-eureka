@@ -15,11 +15,25 @@ body {
 }
 .educationLogos h3{
   color: rosybrown;
-  grid-column: 1 / 2;
+  grid-column: 2 / 3;
+  place-self: center left;
 }
 .educationLogos img{
- 
+  place-self: center left;
+  grid-column: 1 /2;
 }
+
+.educationLogos img{
+  place-self: center left;
+  grid-column: 1 /2;
+}
+
+
+
+
+
+
+
 .educationDetails h2{
   
   grid-column: 1 / 5;
