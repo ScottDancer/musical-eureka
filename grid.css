@@ -18,13 +18,13 @@ body {
 .educationLogos {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 20px 60px 70px;
+  grid-template-rows: 20px 30px 70px;
   grid-column: 2 / 4;
   /* place-self: start center; */
   
 }
 .educationLogos h3{
-  color: rosybrown;
+  /* color: rosybrown; */
   grid-column: 2 / 4;
   place-self: center left;
 }
