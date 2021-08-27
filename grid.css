@@ -5,13 +5,19 @@ body {
 .educationDetails {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 100px 150px 150px 150px 150px;
+  /* grid-template-rows: 100px 150px 150px 150px 150px; */
+
+
+
+  grid-template-rows: 100px 175px 175px 175px 175px;
+ 
 }
 
 .educationDetails h2{
   grid-column: 1 / 5;
   place-self: center;
   padding-top: 2%;
+  
 
 }
 
@@ -20,18 +26,28 @@ body {
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-rows: 20px 30px 70px;
   grid-column: 2 / 4;
+  /* border-bottom: 1px solid #CCC5BB; */
+  border-top: 1px solid #CCC5BB;
+   grid-column-gap: 10px;
+   padding-top: 15px;
+  
+
   /* place-self: start center; */
   
 }
+
+.uwLogo {
+  border-top: hidden;
+}
 .educationLogos h3{
   /* color: rosybrown; */
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
   place-self: center left;
 }
 
 .educationLogos p{
   
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
   /* place-self: center left; */
 }
 
