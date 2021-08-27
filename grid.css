@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-column: 2 / 4;
-  /* place-self: start center; */
+  place-self: start center;
   
 }
 .educationLogos h3{
@@ -30,7 +30,7 @@ body {
 
 
 .educationLogos img{
-  place-self: center center;
+  /* place-self: center center; */
   grid-column: 1 / 2;
 }
 
