@@ -5,6 +5,14 @@ body {
 .educationDetails {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 100px 150px 150px 150px 150px;
+}
+
+.educationDetails h2{
+  grid-column: 1 / 5;
+  place-self: center;
+  padding-top: 2%;
+
 }
 
 .educationLogos {
@@ -23,7 +31,7 @@ body {
 
 .educationLogos img{
   place-self: center center;
-  grid-column: 1 /2;
+  grid-column: 1 / 2;
 }
 
 
@@ -32,8 +40,3 @@ body {
 
 
 
-.educationDetails h2{
-  
-  grid-column: 1 / 5;
-  place-self: center;
-}
