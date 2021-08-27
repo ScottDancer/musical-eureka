@@ -11,6 +11,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-column: 2 / 4;
+  /* place-self: start center; */
   
 }
 .educationLogos h3{
@@ -18,13 +19,10 @@ body {
   grid-column: 2 / 3;
   place-self: center left;
 }
-.educationLogos img{
-  place-self: center left;
-  grid-column: 1 /2;
-}
+
 
 .educationLogos img{
-  place-self: center left;
+  place-self: center center;
   grid-column: 1 /2;
 }
 
