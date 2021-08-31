@@ -4,14 +4,14 @@ body {
 
 .educationDetails {
   display: grid;
-  grid-template-columns: .5fr 2fr 2fr .5fr;
+  grid-template-columns: .25fr 2fr 2fr .25fr;
   /* grid-template-rows: 100px 150px 150px 150px 150px; */
 
 
 
-  grid-template-rows: 100px 400px 400px 400px 400px;
+  grid-template-rows: 100px 360px 360px 360px 360px;
   grid-gap: 1.5em;
-  
+
 }
 
 .educationDetails h2{
@@ -26,7 +26,7 @@ body {
   /* background-color: red; */
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 20px 30px 70px;
+  grid-template-rows: 130px 30px 30px 150px;
   grid-column: 2 / 4;
   border-top: 1px solid #CCC5BB;
   grid-column-gap: 10px;
@@ -44,20 +44,23 @@ body {
 .uwContent {
   border-top: hidden;
 }
+
+.educationLogos img{
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  place-self: center center
+ }
 .educationLogos h3{
   /* color: rosybrown; */
-  grid-column: 2 / 5;
-  place-self: center left;
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  place-self: center center;
 }
 
 .educationLogos p{
   
-  grid-column: 2 / 5;
-  /* place-self: center left; */
+  grid-column: 2 / 4;
+  place-self: start center;
 }
 
 
-.educationLogos img{
-  /* place-self: center center; */
-  grid-column: 1 / 2;
-}
