@@ -1,5 +1,5 @@
 body {
-  /* background-color: limegreen; */
+  background-color: limegreen;
 }
 
 .educationDetails {
@@ -58,10 +58,3 @@ body {
   /* place-self: center center; */
   grid-column: 1 / 2;
 }
-
-
-
-
-
-
-
