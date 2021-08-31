@@ -9,7 +9,7 @@ body {
 
 
 
-  grid-template-rows: 100px 360px 360px 360px 360px;
+  grid-template-rows: 100px 350px 310px 310px 310px;
   grid-gap: 1.5em;
 
 }
@@ -26,10 +26,10 @@ body {
   /* background-color: red; */
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 130px 30px 30px 150px;
+  grid-template-rows: 130px 50px 50px 150px;
   grid-column: 2 / 4;
   border-top: 1px solid #CCC5BB;
-  grid-column-gap: 10px;
+  
   padding-top: 15px;
 
    /* border-bottom: 1px solid #CCC5BB; */
@@ -55,11 +55,13 @@ body {
   grid-column: 1 / 5;
   grid-row: 2 / 3;
   place-self: center center;
+  font-size: smaller;
 }
 
 .educationLogos p{
   
-  grid-column: 2 / 4;
+  grid-column: 1 / 5;
+  font-size: smaller;
   place-self: start center;
 }
 
