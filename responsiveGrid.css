@@ -5,21 +5,14 @@ body {
 .educationDetails {
   display: grid;
   grid-template-columns: .25fr 2fr 2fr .25fr;
-  /* grid-template-rows: 100px 150px 150px 150px 150px; */
-
-
-
   grid-template-rows: 100px 350px 310px 310px 310px;
   grid-gap: 1.5em;
-
 }
 
 .educationDetails h2{
   grid-column: 1 / 5;
   place-self: center;
-  padding-top: 2%;
-  
-
+  padding-top: 2%; 
 }
 
 .educationLogos {
@@ -28,22 +21,10 @@ body {
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-rows: 130px 50px 50px 150px;
   grid-column: 2 / 4;
-  border: 1px solid #CCC5BB;
-  
+  border: 1px solid #CCC5BB; 
   padding-top: 15px;
-
-   /* border-bottom: 1px solid #CCC5BB; */
-  
-
-  /* place-self: start center; */
-
   background-color: white;
-  opacity: .8;
-  
-}
-
-.uwContent {
-  /* border-top: hidden; */
+  opacity: .8; 
 }
 
 .educationLogos img{
@@ -51,6 +32,7 @@ body {
   grid-row: 1 / 2;
   place-self: center center
  }
+
 .educationLogos h3{
   /* color: rosybrown; */
   grid-column: 1 / 5;
@@ -60,7 +42,6 @@ body {
 }
 
 .educationLogos p{
-  
   grid-column: 1 / 5;
   font-size: smaller;
   place-self: start center;
